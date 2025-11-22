@@ -61,7 +61,7 @@ void setup() {
 }
 
 void loop() {
-    timeClient.update(); //อัพเดตเวลา
+  timeClient.update(); //อัพเดตเวลา
   currentHour = timeClient.getHours();
   currentMinute = timeClient.getMinutes();
   Serial.print("Time: ");
