@@ -19,8 +19,8 @@ int red = 16; //ไฟสีเขียว
 int vcc2 = 4;
 int vcc3 = 14;
 int gnd3 = 27;
-const char* ssid     = "KANISORN_2.4G"; 
-const char* password = "0875718855"; 
+const char* ssid     = "YourSSID"; 
+const char* password = "YourPassword"; 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", 7 * 3600, 60000);  // UTC+7 เป็นเวลาไทย
 
